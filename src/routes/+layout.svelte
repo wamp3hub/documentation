@@ -1,5 +1,6 @@
 <script>
-import '~/domain.scss'
+import 'normalize.css/normalize.css'
+import '~/styles/global.scss'
 </script>
 
 <slot />
