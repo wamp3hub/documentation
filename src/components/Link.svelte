@@ -1,9 +1,13 @@
 <script>
+import { base } from '$app/paths'
+
 export let href
-export let color
+export let color = 'white'
 export let newTab = false
 export let underline = true
 export let bold = false
+
+let __href = base + href
 
 let target = undefined
 if (newTab) {
@@ -15,7 +19,7 @@ if (newTab) {
     class="link link-{color}"
     class:link-underline={underline}
     class:link-bold={bold}
-    {href}
+    href={__href}
     {target}
 >
     <slot />

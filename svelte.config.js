@@ -24,6 +24,10 @@ const config = {
 		alias: {
 			'~': 'src/'
 		},
+
+		paths: {
+			base: '/documentation',
+		}
 	}
 };
 
