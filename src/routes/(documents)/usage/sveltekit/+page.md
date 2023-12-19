@@ -1,4 +1,9 @@
-# SvelteKit
+---
+category: Usage
+title: SvelteKit
+layout: document
+---
+
 
 
 `src/wamps.js`

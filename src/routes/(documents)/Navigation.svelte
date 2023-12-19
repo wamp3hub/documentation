@@ -6,11 +6,11 @@ export let links
 </script>
 
 <ul id="navigation">
-    {#each links as link}
+    {#each links as l}
         <li class="group">
-            <span class="category uppercase">{link.category}</span>
+            <span class="category uppercase">{l.category}</span>
             <ul>
-                {#each link.items as item}
+                {#each l.items as item}
                     {@const active = $page.url.pathname.includes(item.path)}
                     <li class="item">
                         <Link
