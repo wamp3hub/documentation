@@ -12,15 +12,11 @@ export let links = [
         ],
     },
     {
-        category: 'Installation',
+        category: 'Router',
         items: [
             {
-                label: 'Router',
-                path: '/installation/router',
-            },
-            {
-                label: 'Client Libraries',
-                path: '/installation/client-libraries',
+                label: 'Installation',
+                path: '/router/installation',
             },
         ],
     },
@@ -42,6 +38,10 @@ export let links = [
             {
                 label: 'Publish & Subscribe',
                 path: '/usage/publish-subscribe',
+            },
+            {
+                label: 'SvelteKit',
+                path: '/usage/sveltekit',
             },
         ],
     },
