@@ -7,7 +7,7 @@ export let newTab = false
 export let underline = true
 export let bold = false
 
-let __href = base + href
+let __href = href.startsWith('http') ? href : base + href
 
 let target = undefined
 if (newTab) {

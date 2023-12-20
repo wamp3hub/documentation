@@ -1,5 +1,5 @@
 ---
 category: Introduction
-title: Serializer
+title: Serialization
 layout: document
 ---
