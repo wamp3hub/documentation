@@ -49,7 +49,7 @@ if (newTab) {
 }
 
 .link-dark {
-    color: $color-dark;
+    color: $color-gray;
 
     &:hover {
         color: $color-white;

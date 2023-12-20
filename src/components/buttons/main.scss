@@ -1,0 +1,10 @@
+button {
+    cursor: pointer;
+}
+
+button.transparent {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
