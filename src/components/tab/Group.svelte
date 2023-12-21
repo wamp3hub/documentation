@@ -1,9 +1,14 @@
 <script>
-import {writable} from 'svelte/store'
+import { createEventDispatcher } from 'svelte'
+import { writable } from 'svelte/store'
 
-export let initial
+export let selected = writable()
 
-let selected = writable(initial)
+let dispatch = createEventDispatcher()
+
+selected.subscribe(v => {
+    dispatch('change', v)
+})
 </script>
 
 <slot {selected} />

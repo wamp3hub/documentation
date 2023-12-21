@@ -19,4 +19,4 @@ let joinSnippets = [
 ]
 </script>
 
-<Snippets initial={domain.LanguageKinds.JavaScript} data={joinSnippets} />
+<Snippets data={joinSnippets} />

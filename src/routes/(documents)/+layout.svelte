@@ -21,7 +21,9 @@ onMount(() => {
 })
 
 afterNavigate(() => {
-    backdrop.hide()
+    if (isMobile) {
+        backdrop.hide()
+    }
 })
 </script>
 

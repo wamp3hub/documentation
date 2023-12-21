@@ -13,7 +13,20 @@ import SubscriberSnippet from './subscriber.md'
 import PublisherSnippet from './publisher.md'
 </script>
 
-`src/routes/wamps.js`
+`svelte.config.js`
+
+```js
+/** @type {import('@sveltejs/kit').Config} */
+export default {
+	kit: {
+		alias: {
+			'~': 'src/'
+		}
+    }
+}
+```
+
+`src/wamps.js`
 
 <WAMPSSnippet />
 
