@@ -25,6 +25,7 @@
 	"type": "module",
 	"dependencies": {
 		"front-matter": "^4.0.2",
-		"normalize.css": "^8.0.1"
+		"normalize.css": "^8.0.1",
+		"vite-plugin-svelte-svg": "^2.3.0"
 	}
 }

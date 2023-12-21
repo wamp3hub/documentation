@@ -5,8 +5,8 @@ import Backdrop from '~/components/Backdrop.svelte'
 import Logo from '~/components/Logo.svelte'
 import TransparentButton from '~/components/buttons/Transparent.svelte'
 import Navigation from './Navigation.svelte'
-import IMenu from '~/icons/menu.svg?raw'
-import ISearch from '~/icons/search.svg?raw'
+import IMenu from '~/icons/menu.svg?component'
+import ISearch from '~/icons/search.svg?component'
 
 export let data
 let {links} = data
@@ -49,10 +49,10 @@ afterNavigate(() => {
 
             <div class="right">
                 <TransparentButton>
-                    {@html ISearch}
+                    <ISearch />
                 </TransparentButton>
                 <TransparentButton on:click={e => backdrop.show()}>
-                    {@html IMenu}
+                    <IMenu />
                 </TransparentButton>
             </div>
         </div>

@@ -1,8 +1,8 @@
 <script>
 import TransparentButton from '~/components/buttons/Transparent.svelte'
 import Tab from '~/components/tab'
-import ICheck from '~/icons/check.svg?raw'
-import ICopy from '~/icons/copy.svg?raw'
+import ICheck from '~/icons/check.svg?component'
+import ICopy from '~/icons/copy.svg?component'
 
 export let initial, data
 
@@ -29,10 +29,10 @@ function copyToClipboard(e) {
         <Tab.Body bind:this={body}>
             <div class="copy-button">
                 {#if displayCheck}
-                    {@html ICheck}
+                    <ICheck />
                 {:else}
                     <TransparentButton on:click={copyToClipboard}>
-                        {@html ICopy}
+                        <ICopy />
                     </TransparentButton>
                 {/if}
             </div>
