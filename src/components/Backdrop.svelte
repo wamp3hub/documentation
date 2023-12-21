@@ -39,7 +39,7 @@ export function hide() {
     .backdrop-content {
         width: 100%;
         height: 80%;
-        border-top: 1px solid $color-gray;
+        border-top: 1px solid $color-dark;
         border-top-left-radius: 3%;
         border-top-right-radius: 3%;
         background-color: $color-black;

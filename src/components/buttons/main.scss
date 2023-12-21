@@ -1,5 +1,23 @@
+@import '~/styles/domain.scss';
+
 button {
     cursor: pointer;
+}
+
+button.regular {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+button.regular-white {
+    background-color: $color-white;
+}
+
+button.regular-dark {
+    color: $color-gray;
+    background-color: $color-dark;
 }
 
 button.transparent {
