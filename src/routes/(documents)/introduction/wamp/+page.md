@@ -1,4 +1,5 @@
 ---
+number: 0
 category: Introduction
 title: WAMP
 layout: document

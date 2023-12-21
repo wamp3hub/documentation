@@ -1,4 +1,5 @@
 ---
+number: 4
 category: Usage
 title: Authenticator
 layout: document

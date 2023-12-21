@@ -16,9 +16,12 @@ export async function load() {
             }
             linksByCategory.set(p.category, link)
         }
-        link.items.push({label: p.title, path: p.path})
+        link.items.push({label: p.title, path: p.path, number: p.number})
     }
-    return {
-        links: Array.from(linksByCategory.values())
+    let links = []
+    for (let l of linksByCategory.values()) {
+        l.items = l.items.sort((a, b) => a.number - b.number)
+        links.push(l)
     }
+    return { links, }
 }

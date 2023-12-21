@@ -1,9 +1,9 @@
 <script>
-export let data, form, layout, title, category
+export let data, form, layout, title, category, number
 </script>
 
 <svelte:head>
-    <title>{title}</title>
+    <title>{title} | {category} | WAMP3</title>
 </svelte:head>
 
 <div class="page">

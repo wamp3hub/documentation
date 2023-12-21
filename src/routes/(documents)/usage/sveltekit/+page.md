@@ -1,4 +1,5 @@
 ---
+number: 5
 category: Usage
 title: SvelteKit
 layout: document
