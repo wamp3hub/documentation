@@ -13,22 +13,22 @@ import SubscriberSnippet from './subscriber.md'
 import PublisherSnippet from './publisher.md'
 </script>
 
-`src/wamps.js`
+`src/routes/wamps.js`
 
 <WAMPSSnippet />
 
-`src/+layout.js`
+`src/routes/+layout.js`
 
 <LayoutJSSnippet />
 
-`src/+layout.svelte`
+`src/routes/+layout.svelte`
 
 <LayoutSvelteSnippet />
 
-`src/subscriber/+page.svelte`
+`src/routes/subscriber/+page.svelte`
 
 <SubscriberSnippet />
 
-`src/publisher/+page.svelte`
+`src/routes/publisher/+page.svelte`
 
 <PublisherSnippet />

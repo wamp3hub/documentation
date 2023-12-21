@@ -2,6 +2,7 @@
 import {onMount} from 'svelte'
 import {afterNavigate} from '$app/navigation'
 import Backdrop from '~/components/Backdrop.svelte'
+import Logo from '~/components/Logo.svelte'
 import TransparentButton from '~/components/buttons/Transparent.svelte'
 import Navigation from './Navigation.svelte'
 import IMenu from '~/icons/menu.svg?raw'
@@ -43,8 +44,9 @@ afterNavigate(() => {
         </Backdrop>
         <div class="mobile-navigation-bar">
             <div class="left">
-
+                <Logo />
             </div>
+
             <div class="right">
                 <TransparentButton>
                     {@html ISearch}
