@@ -1,7 +1,7 @@
 ---
 number: 1
 category: Usage
-title: Category
+title: Publish & Subscribe
 layout: document
 ---
 
