@@ -5,16 +5,13 @@ import '~/styles/code.scss'
 ```python
 import wamp3py
 
-async def on_echo(
-    message: str,
-    **kwargs,
-):
+async def on_echo(message: str, **kwargs):
     print('new message', message)
 
 
 async def main():
     # join code here
-    subscription = wamps.subscribe(
+    subscription = await wamps.subscribe(
         'net.example',
         on_echo
     )

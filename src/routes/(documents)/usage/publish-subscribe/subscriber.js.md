@@ -9,7 +9,7 @@ async function onEcho({payload}) {
 
 async function main() {
     // join code here
-    let subscription = wamps.subscribe(
+    let subscription = await wamps.subscribe(
         'net.example',
         {},
         onEcho,
