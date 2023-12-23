@@ -3,6 +3,8 @@ import '~/styles/code.scss'
 </script>
 
 ```go
+// subscriber.go
+
 import (
     "fmt"
 

@@ -3,6 +3,8 @@ import '~/styles/code.scss'
 </script>
 
 ```go
+// publisher.go
+
 import (
     "fmt"
 

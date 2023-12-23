@@ -3,6 +3,8 @@ import '~/styles/code.scss'
 </script>
 
 ```js
+// subscriber.js
+
 async function onEcho({payload}) {
     console.log('new message', payload)
 }

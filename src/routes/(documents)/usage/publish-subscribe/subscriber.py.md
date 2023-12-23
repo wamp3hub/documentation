@@ -3,6 +3,8 @@ import '~/styles/code.scss'
 </script>
 
 ```python
+# subscriber.py
+
 import wamp3py
 
 async def on_echo(message: str, **kwargs):
