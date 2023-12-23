@@ -13,6 +13,6 @@ async function main() {
         'net.example.greeting',
         greeting,
     )
-    print(`new registration ID=${registration.ID} URI=${registration.URI}`)
+    console.log(`new registration ID=${registration.ID} URI=${registration.URI}`)
 }
 ```
