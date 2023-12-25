@@ -1,4 +1,6 @@
 <script>
+import './main.scss'
+
 export let color = 'dark'
 </script>
 

@@ -1,17 +1,17 @@
 <script>
 import { base } from '$app/paths'
 
-export let href
-export let color = 'white'
-export let newTab = false
-export let underline = true
-export let bold = false
+export let href,
+    newTab = false,
+    color = 'white',
+    bold = false,
+    underline = true
 
 let __href = href.startsWith('http') ? href : base + href
 
-let target = undefined
+let __target = undefined
 if (newTab) {
-    target = '_blank'
+    __target = '_blank'
 }
 </script>
 
@@ -20,7 +20,7 @@ if (newTab) {
     class:link-underline={underline}
     class:link-bold={bold}
     href={__href}
-    {target}
+    target={__target}
 >
     <slot />
 </a>
